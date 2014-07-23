@@ -5,8 +5,7 @@ makeCacheMatrix <- function(x = matrix()) {
         # Create speacial matrix object - inverse objec
         # initilize inverse object
         matrix_inverse <- NULL
-        m <- NULL
-        
+          
         # set method,  set method object  to matrix object 'x'
         set <- function(y) {
                 x <<- y
